@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>Curriculum Estudiantes UNAD</title>
+<style>
+#formacion li, #experiencia li {
+  color: #00F;
+}
+
+#formacion li strong, #experiencia li strong {
+  color: #000;
+}
+
+@media (min-width: 1201px) {
+  #datos {
+    float: left;
+  width: 30%;
+  }
+  
+  #curriculo {
+    float: left;
+  width: 70%;
+  }
+  
+  #formacion {
+    float: left;
+  width: 50%;
+  }
+  
+  #experiencia {
+    float: left;
+  width: 50%;  
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  body {
+    font-family: Arial,sans-serif;
+  }
+
+  #datos {
+    float: left;
+  width: 30%;
+  }
+  
+  #curriculo {
+    float: left;
+  width: 70%;
+  }
+  
+  #datos ul {
+    list-style-type: none;
+  padding: 0;
+  }
+  
+  #datos li + li {
+    margin-top: 10px;
+  }
+
+  #datos li strong {
+    display: block;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body {
+    font-family: Arial,sans-serif;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  border-bottom: 1px solid #000;
+  }
+  
+  ul {
+    list-style-type: none;
+  padding: 0;
+  }
+  
+  li + li {
+    margin-top: 10px;
+  }
+
+  li strong {
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>Curriculum estudiante UNAD</h1>
+<p><a href="actividad_3.html">Volver a la actividad</a></p>
+
+<div id="datos">
+<h2>Nombre participantes</h2>
+<ul>
+<li>Nombre Persona #1 <strong>Jose Andres Castro</strong></li>
+<li>Nombre Persona #2 <strong>Mariel Andrés Rivera</strong></li>
+<li>Nombre Persona #3 <strong>Diego Fernando Hurtado</strong></li>
+<li>Nombre Persona #4 <strong>Luisa Maria Betancourt</strong></li>
+</ul>
+</div>
+
+<div id="curriculo">
+<div id="formacion">
+<h2>Programa</h2>
+<ul>
+<li>Persona #1 <strong>Ingeniería de sistemas</strong></li>
+<li>Persona #2 <strong>Ingeniería de sistemas</strong></li>
+<li>Persona #3 <strong>Ingeniería de sistemas</strong></li>
+<li>Persona #4 <strong>Ingeniería de sistemas</strong></li>
+</ul>
+</div>
+
+<div id="experiencia">
+<h2>Código</h2>
+<ul>
+<li>Persona #1 <strong>1088030477</strong></li>
+<li>Persona #2 <strong>18517322</strong></li>
+<li>Persona #3 <strong>1054921434</strong></li>
+<li>Persona #4 <strong>1054921434</strong></li>
+</ul>
+</div>
+</div>
+
+</body>
+</html>
